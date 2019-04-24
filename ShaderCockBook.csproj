@@ -243,6 +243,11 @@
     <None Include="Assets\CH3\Script\Shader\SimpleTexture.shader" />
     <None Include="Assets\CH3\Script\Shader\SimpleTransparnet.shader" />
     <None Include="Assets\CH3\Script\Shader\TextureBlending.shader" />
+    <None Include="Assets\CH4\Shaders\AnisotropicShader.shader" />
+    <None Include="Assets\CH4\Shaders\SimpleBilnnPhong.shader" />
+    <None Include="Assets\CH4\Shaders\SimpleLambert.shader" />
+    <None Include="Assets\CH4\Shaders\SimplePhong.shader" />
+    <None Include="Assets\CH4\Shaders\SimpleToneShading.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
