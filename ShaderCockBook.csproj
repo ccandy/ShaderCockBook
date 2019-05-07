@@ -232,6 +232,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CH10\Scripts\NightVisionRender.cs" />
     <Compile Include="Assets\CH10\Scripts\OldFilmEffect.cs" />
     <Compile Include="Assets\CH3\Script\SetRadiusProperties.cs" />
     <Compile Include="Assets\CH9\Scripts\RenderBlendMode.cs" />
@@ -240,7 +241,12 @@
     <Compile Include="Assets\CH9\Scripts\TestRenderImage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\CH10\Shaders\NightVisioinShader.shader" />
     <None Include="Assets\CH10\Shaders\OldFilmShader.shader" />
+    <None Include="Assets\CH11\Shaders\Colorize.shader" />
+    <None Include="Assets\CH11\Shaders\FurPass.cginc" />
+    <None Include="Assets\CH11\Shaders\FurShader.shader" />
+    <None Include="Assets\CH11\Shaders\MyCGInclude.cginc" />
     <None Include="Assets\CH3\Script\Shader\HolographicMat.shader" />
     <None Include="Assets\CH3\Script\Shader\RadiusShader.shader" />
     <None Include="Assets\CH3\Script\Shader\ScrollingUV.shader" />
